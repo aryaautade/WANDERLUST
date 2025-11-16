@@ -92,6 +92,17 @@ app.use((req, res, next) => {
   next();
 });
 
+
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
+
+
+app.head("/", (req, res) => {
+  res.status(200).end();
+});
+
+
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/listings", listingRouter);
 app.use("/", userRouter);
