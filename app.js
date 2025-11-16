@@ -16,7 +16,7 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 
-const { cloudinary, storage } = require('./cloudinary'); // Cloudinary config
+const { cloudinary, storage } = require('./cloudconfig'); // Cloudinary config
 const uploadRoutes = require('./routes/upload');     
 
 const listingRouter = require("./routes/listing.js");
