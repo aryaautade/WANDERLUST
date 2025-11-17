@@ -16,8 +16,7 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 
-const { cloudinary, storage } = require('./cloudconfig'); 
-const uploadRoutes = require('./routes/upload');     
+
 
 const listingRouter = require("./routes/listing.js");
 const reviewRouter = require("./routes/review.js");
@@ -110,7 +109,7 @@ app.use("/listings/:id/reviews", reviewRouter);
 app.use("/listings", listingRouter);
 app.use("/", userRouter);
 
-app.use('/api', uploadRoutes);
+
 
 app.all(/.*/,(req,res,next)=>{
   next(new ExpressError(404,"Page not found!"))
