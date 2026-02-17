@@ -1,4 +1,4 @@
-Wanderlust is a full-stack property listing web application inspired by Airbnb. Users can explore listings, create accounts, and manage property data through a structured MVC architecture. The application is fully containerized using Docker for consistent development and deployment
+Wanderlust is a full-stack property listing web application inspired by Airbnb. Users can explore listings, create accounts, and manage property data through a structured MVC architecture. The application is fully containerized using Docker for consistent development and deployment.
 
 
  Key Features:
