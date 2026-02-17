@@ -1,19 +1,30 @@
-Wanderlust is a full-stack web application inspired by platforms like Airbnb, where users can explore travel stays, view detailed listings, upload images, and post reviews. The project is focused on backend-driven functionality, templating, and database integration — built using Node.js, Express.js, MongoDB & EJS.
+Wanderlust is a full-stack property listing web application inspired by Airbnb. Users can explore listings, create accounts, and manage property data through a structured MVC architecture. The application is fully containerized using Docker for consistent development and deployment
+
 
  Key Features:
+User Authentication & Authorization
 
- Browse and view detailed property listings
+Create, Read, Update, Delete (CRUD) Listings
 
- Add, edit, and delete listings
+RESTful API Architecture
 
- Image upload via Cloudinary
+MVC Project Structure
 
- Review & rating system
+MongoDB Database Integration
 
- User Authentication & Authorization (Login / Signup)
+Dockerized Backend Service
 
- Server-side rendering using EJS
+Multi-container setup using Docker Compose
 
- Robust database operations with MongoDB
 
- Form validation, flash messages & error handling
+Tech Stack:
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+Templating: EJS
+
+Containerization: Docker & Docker Compose
+
+Version Control: Git & GitHub
